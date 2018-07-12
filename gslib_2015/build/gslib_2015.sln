@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gsgraphics", "gsgraphics.vcxproj", "{B8A708CB-9E41-4DC4-B253-A452187BE3F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gsutil", "gsutil.vcxproj", "{DCF3B4FC-5AF6-46A6-9838-E41CEBF2F401}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gssound", "gssound.vcxproj", "{40B48405-FB73-4ABC-BA17-696DD657231D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gsinput", "gsinput.vcxproj", "{11F50589-5AC0-4D8C-8D16-7EADD1171B35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		gsgraphics_mdd|Win32 = gsgraphics_mdd|Win32
+		gsgraphics_mt|Win32 = gsgraphics_mt|Win32
+		gsgraphics_mtd|Win32 = gsgraphics_mtd|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8A708CB-9E41-4DC4-B253-A452187BE3F1}.gsgraphics_mdd|Win32.ActiveCfg = gsgraphics_md|Win32
+		{B8A708CB-9E41-4DC4-B253-A452187BE3F1}.gsgraphics_mdd|Win32.Build.0 = gsgraphics_md|Win32
+		{B8A708CB-9E41-4DC4-B253-A452187BE3F1}.gsgraphics_mt|Win32.ActiveCfg = gsgraphics_mtd|Win32
+		{B8A708CB-9E41-4DC4-B253-A452187BE3F1}.gsgraphics_mt|Win32.Build.0 = gsgraphics_mtd|Win32
+		{B8A708CB-9E41-4DC4-B253-A452187BE3F1}.gsgraphics_mtd|Win32.ActiveCfg = gsgraphics_mdd|Win32
+		{B8A708CB-9E41-4DC4-B253-A452187BE3F1}.gsgraphics_mtd|Win32.Build.0 = gsgraphics_mdd|Win32
+		{DCF3B4FC-5AF6-46A6-9838-E41CEBF2F401}.gsgraphics_mdd|Win32.ActiveCfg = gsutil_md|Win32
+		{DCF3B4FC-5AF6-46A6-9838-E41CEBF2F401}.gsgraphics_mdd|Win32.Build.0 = gsutil_md|Win32
+		{DCF3B4FC-5AF6-46A6-9838-E41CEBF2F401}.gsgraphics_mt|Win32.ActiveCfg = gsutil_mdd|Win32
+		{DCF3B4FC-5AF6-46A6-9838-E41CEBF2F401}.gsgraphics_mt|Win32.Build.0 = gsutil_mdd|Win32
+		{DCF3B4FC-5AF6-46A6-9838-E41CEBF2F401}.gsgraphics_mtd|Win32.ActiveCfg = gsutil_mdd|Win32
+		{DCF3B4FC-5AF6-46A6-9838-E41CEBF2F401}.gsgraphics_mtd|Win32.Build.0 = gsutil_mdd|Win32
+		{40B48405-FB73-4ABC-BA17-696DD657231D}.gsgraphics_mdd|Win32.ActiveCfg = gssound_mtd|Win32
+		{40B48405-FB73-4ABC-BA17-696DD657231D}.gsgraphics_mdd|Win32.Build.0 = gssound_mtd|Win32
+		{40B48405-FB73-4ABC-BA17-696DD657231D}.gsgraphics_mt|Win32.ActiveCfg = gssound_md|Win32
+		{40B48405-FB73-4ABC-BA17-696DD657231D}.gsgraphics_mt|Win32.Build.0 = gssound_md|Win32
+		{40B48405-FB73-4ABC-BA17-696DD657231D}.gsgraphics_mtd|Win32.ActiveCfg = gssound_md|Win32
+		{40B48405-FB73-4ABC-BA17-696DD657231D}.gsgraphics_mtd|Win32.Build.0 = gssound_md|Win32
+		{11F50589-5AC0-4D8C-8D16-7EADD1171B35}.gsgraphics_mdd|Win32.ActiveCfg = gsinput_md|Win32
+		{11F50589-5AC0-4D8C-8D16-7EADD1171B35}.gsgraphics_mdd|Win32.Build.0 = gsinput_md|Win32
+		{11F50589-5AC0-4D8C-8D16-7EADD1171B35}.gsgraphics_mt|Win32.ActiveCfg = gsinput_mdd|Win32
+		{11F50589-5AC0-4D8C-8D16-7EADD1171B35}.gsgraphics_mt|Win32.Build.0 = gsinput_mdd|Win32
+		{11F50589-5AC0-4D8C-8D16-7EADD1171B35}.gsgraphics_mtd|Win32.ActiveCfg = gsinput_mdd|Win32
+		{11F50589-5AC0-4D8C-8D16-7EADD1171B35}.gsgraphics_mtd|Win32.Build.0 = gsinput_mdd|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

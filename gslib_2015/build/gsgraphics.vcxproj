@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="gsgraphics_mdd|Win32">
+      <Configuration>gsgraphics_mdd</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="gsgraphics_md|Win32">
+      <Configuration>gsgraphics_md</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="gsgraphics_mtd|Win32">
+      <Configuration>gsgraphics_mtd</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="gsgraphics_mt|Win32">
+      <Configuration>gsgraphics_mt</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B8A708CB-9E41-4DC4-B253-A452187BE3F1}</ProjectGuid>
+    <RootNamespace>gsgraphics</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='gsgraphics_md|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mtd|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mdd|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mt|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='gsgraphics_md|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mtd|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mdd|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mt|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mt|Win32'">..\out\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mt|Win32'">..\out\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mdd|Win32'">..\out\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mdd|Win32'">..\out\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mtd|Win32'">..\out\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mtd|Win32'">..\out\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='gsgraphics_md|Win32'">..\out\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='gsgraphics_md|Win32'">..\out\$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mdd|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mdd|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mdd|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='gsgraphics_md|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='gsgraphics_md|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='gsgraphics_md|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mtd|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mtd|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mtd|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mt|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mt|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mt|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='gsgraphics_md|Win32'">..\inc;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='gsgraphics_md|Win32'">..\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mdd|Win32'">..\inc;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mt|Win32'">..\inc;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mtd|Win32'">..\inc;$(IncludePath)</IncludePath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='gsgraphics_md|Win32'">gsgraphics_md</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mdd|Win32'">gsgraphics_mdd</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mt|Win32'">gsgraphics_mt</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mtd|Win32'">gsgraphics_mtd</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mt|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/D "_CRT_SECURE_NO_WARNINGS" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\lib\gsgraphics_mt.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mdd|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/D "_CRT_SECURE_NO_WARNINGS" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\lib\gsgraphics_mdd.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='gsgraphics_mtd|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/D "_CRT_SECURE_NO_WARNINGS" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\lib\gsgraphics_mtd.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='gsgraphics_md|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/D "_CRT_SECURE_NO_WARNINGS" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\lib\gsgraphics_md.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\GSgraphics\GSanimation.c" />
+    <ClCompile Include="..\src\GSgraphics\GScollision.c" />
+    <ClCompile Include="..\src\GSgraphics\GSframetimer.c" />
+    <ClCompile Include="..\src\GSgraphics\GSfrustum.c" />
+    <ClCompile Include="..\src\GSgraphics\GSgraphics.c" />
+    <ClCompile Include="..\src\GSgraphics\GSgraphics_util.c" />
+    <ClCompile Include="..\src\GSgraphics\GSload_dds.cpp" />
+    <ClCompile Include="..\src\GSgraphics\GSmatrix3.c" />
+    <ClCompile Include="..\src\GSgraphics\GSmatrix4.c" />
+    <ClCompile Include="..\src\GSgraphics\GSmesh.c" />
+    <ClCompile Include="..\src\GSgraphics\GSoctree.c" />
+    <ClCompile Include="..\src\GSgraphics\GSpixel_format.c" />
+    <ClCompile Include="..\src\GSgraphics\GSplane.c" />
+    <ClCompile Include="..\src\GSgraphics\GSquaternion.c" />
+    <ClCompile Include="..\src\GSgraphics\GSrender_target.c" />
+    <ClCompile Include="..\src\GSgraphics\GSsave_dds.cpp" />
+    <ClCompile Include="..\src\GSgraphics\GSsave_texture_file.c" />
+    <ClCompile Include="..\src\GSgraphics\GSshader.c" />
+    <ClCompile Include="..\src\GSgraphics\GSskeleton.c" />
+    <ClCompile Include="..\src\GSgraphics\GSload_bmp.c" />
+    <ClCompile Include="..\src\GSgraphics\GSload_png.c" />
+    <ClCompile Include="..\src\GSgraphics\GStext.c" />
+    <ClCompile Include="..\src\GSgraphics\GSload_texture_file.c" />
+    <ClCompile Include="..\src\GSgraphics\GStexture.c" />
+    <ClCompile Include="..\src\GSgraphics\GSuniform_block.c" />
+    <ClCompile Include="..\src\GSgraphics\lodepng.c" />
+    <ClCompile Include="..\src\GSgraphics\opengl_ext.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\GSanimation.h" />
+    <ClInclude Include="..\inc\GScollision.h" />
+    <ClInclude Include="..\inc\GScolor.h" />
+    <ClInclude Include="..\inc\GSeasing.h" />
+    <ClInclude Include="..\inc\GSframetimer.h" />
+    <ClInclude Include="..\inc\GSfrustum.h" />
+    <ClInclude Include="..\inc\GSgraphics.h" />
+    <ClInclude Include="..\inc\GSgraphics_util.h" />
+    <ClInclude Include="..\inc\GSinput.h" />
+    <ClInclude Include="..\inc\GSload_bmp.h" />
+    <ClInclude Include="..\inc\GSload_dds.h" />
+    <ClInclude Include="..\inc\GSload_png.h" />
+    <ClInclude Include="..\inc\GSload_texture_file.h" />
+    <ClInclude Include="..\inc\GSmath.h" />
+    <ClInclude Include="..\inc\GSmatrix3.h" />
+    <ClInclude Include="..\inc\GSmatrix4.h" />
+    <ClInclude Include="..\inc\GSmesh.h" />
+    <ClInclude Include="..\inc\GSoctree.h" />
+    <ClInclude Include="..\inc\GSpixel_format.h" />
+    <ClInclude Include="..\inc\GSplane.h" />
+    <ClInclude Include="..\inc\GSquaternion.h" />
+    <ClInclude Include="..\inc\GSsave_texture_file.h" />
+    <ClInclude Include="..\inc\GSskeleton.h" />
+    <ClInclude Include="..\inc\GSsound.h" />
+    <ClInclude Include="..\inc\GStext.h" />
+    <ClInclude Include="..\inc\GStexture.h" />
+    <ClInclude Include="..\inc\GStype.h" />
+    <ClInclude Include="..\inc\GSvector2.h" />
+    <ClInclude Include="..\inc\GSvector3.h" />
+    <ClInclude Include="..\inc\GSvector4.h" />
+    <ClInclude Include="..\inc\lodepng.h" />
+    <ClInclude Include="..\src\GSgraphics\DDSFile.h" />
+    <ClInclude Include="..\src\GSgraphics\GSrender_target.h" />
+    <ClInclude Include="..\src\GSgraphics\GSsave_dds.h" />
+    <ClInclude Include="..\src\GSgraphics\GSshader.h" />
+    <ClInclude Include="..\src\GSgraphics\GSuniform_block.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
